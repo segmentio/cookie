@@ -1,0 +1,4 @@
+{
+    "extends": ["@segment/eslint-config/mocha", "prettier"]
+}
+  

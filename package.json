@@ -1,22 +1,41 @@
 {
-  "name": "component-cookie",
+  "name": "@segment/cookie",
   "description": "Tiny cookie component",
   "version": "1.1.4",
   "license": "MIT",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "make test",
+    "lint": "eslint \"./{lib,test}/**/*.js\"",
+    "format": "prettier-eslint --write --list-different \"./{lib,test}/**/*.{js,json,md}\""
+  },
   "dependencies": {
     "debug": "2.2.0"
   },
   "devDependencies": {
-    "mocha": "*"
-  },
-  "component": {
-    "scripts": {
-      "./index.js": "index.js"
-    }
-  },
-  "repository": "component/cookie",
-  "scripts": {
-    "test": "make test"
-  },
-  "files": ["index.js"]
+    "@segment/eslint-config": "^5.0.0",
+    "browserify": "13.0.0",
+    "browserify-istanbul": "^2.0.0",
+    "eslint": "^4.19.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-mocha": "^5.0.0",
+    "eslint-plugin-react": "^7.9.1",
+    "eslint-plugin-require-path-exists": "^1.1.8",
+    "karma": "1.3.0",
+    "karma-browserify": "^5.0.4",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-coverage": "^1.0.0",
+    "karma-junit-reporter": "^1.0.0",
+    "karma-mocha": "1.0.1",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "karma-sauce-launcher": "^1.0.0",
+    "karma-spec-reporter": "0.0.26",
+    "karma-summary-reporter": "^1.5.0",
+    "mocha": "^2.2.5",
+    "phantomjs-prebuilt": "^2.1.7",
+    "prettier-eslint-cli": "^4.7.1",
+    "proclaim": "^3.6.0",
+    "snyk": "^1.83.0",
+    "watchify": "^3.7.0"
+  }
 }
