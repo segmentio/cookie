@@ -10,7 +10,7 @@
     "format": "prettier-eslint --write --list-different \"./{lib,test}/**/*.{js,json,md}\""
   },
   "dependencies": {
-    "debug": "2.2.0"
+    "debug": "^2.6.9"
   },
   "devDependencies": {
     "@segment/eslint-config": "^5.0.0",
