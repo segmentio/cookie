@@ -28,4 +28,5 @@ cookie('name', null)
 
 ## License
 
-  MIT
+Released under the [MIT license](LICENSE).
+
