@@ -4,7 +4,7 @@
 
 ## Installation
 
-    $ component install component/cookie
+    $ npm install @segment/cookie
 
 ## Example
 
